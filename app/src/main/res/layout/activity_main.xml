@@ -6,17 +6,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:gravity="center"
+    >
 
     <TextView
         android:id="@+id/Tresc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Placeholder" />
+        android:text="Placeholder"
+        android:gravity="center"
+        />
 
     <RadioGroup
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
 
         <RadioButton
             android:id="@+id/radioButton"
@@ -35,6 +41,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="RadioButton" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
     </RadioGroup>
 
 </LinearLayout>
